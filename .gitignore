@@ -1,1 +1,7 @@
 *.jpg
+*.DS_Store
+*.pdf
+*.zip
+*.txt
+*.pyc
+*.mp4
