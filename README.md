@@ -1,10 +1,13 @@
-# Incompressible N-S solver
+# Incompressible Navier-Stokes solver
 
-- 2D
+Simple finite-difference Navier-Stokes solver for incompressible flow.
+
+Features:
+
+- Implementation in Python 3.11
+- Fluid solver based on the pressure projection method with 3rd order Runge-Kutta time integration
 - Structured grid
-- Finite-difference method
-- Pressure projection method
-- 3rd order Runge-Kutta time integration
+- 2D
 
 ## Environment
 
