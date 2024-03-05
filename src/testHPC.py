@@ -1,11 +1,22 @@
-from libraries import *
+# !/usr/bin/env python3
+
+"""
+Created by Sotiris Catsoulis
+Outline written by (upd. 10/1/2021):
+    Greg Stroot, gstroot@caltech.edu
+    Jane Bae (Original code outline)
+Copyright 2022 California Institute of Technology
+"""
+
+
+import numpy as np
+import multiprocessing
+import time
+import math
 
 
 N = 4
-
-x = np.random.random((N,N))
-print(x)
-sys.exit()
+x = np.random.random((N, N))
 
 """ def bubble_sort(array):
     check = True
@@ -24,26 +35,22 @@ if __name__ == '__main__':
     p.start()
     p.join() """
 
-import multiprocessing
-from multiprocessing import Pool
-import time
-import math
 
 n_cores = multiprocessing.cpu_count()
 print(n_cores)
-sys.exit()
 
 N = 5000000
 
-def cube(x):
+
+def cube(x: float) -> float:
     return math.sqrt(x)
 
+
 if __name__ == "__main__":
-    
     start_time = time.perf_counter()
 
-    with Pool() as pool:
-      result = pool.map(cube, range(10,N))
+    with multiprocessing.Pool() as pool:
+        result = pool.map(cube, range(10, N))
 
     finish_time = time.perf_counter()
 
