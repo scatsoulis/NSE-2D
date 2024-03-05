@@ -1,4 +1,4 @@
-# Incompressible Navier-Stokes solver
+# NSE-2D: Incompressible Navier-Stokes solver
 
 Simple finite-difference Navier-Stokes solver for incompressible flow.
 
