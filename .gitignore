@@ -18,3 +18,5 @@ videoReport/
 **/*.txt
 **/*.mp4
 **/*.json
+
+!Final_Project_Fa2022.pdf
