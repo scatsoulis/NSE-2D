@@ -1,6 +1,6 @@
-# NSE-2D: Incompressible Navier-Stokes solver
+# NSE-2D: Incompressible Navier-Stokes solver (pre-AI -D)
 
-Simple finite-difference Navier-Stokes solver for incompressible flow.
+Finite-difference Navier-Stokes solver for incompressible flow.
 
 Features:
 
@@ -30,4 +30,4 @@ python3 runSolver.py
 
 ## Acknowledgments
 
-We thank Prof. Jane Bae for her guidance and support for this work (pre-AI).
+We thank Prof. Jane Bae for her guidance and support for this work.
