@@ -30,4 +30,4 @@ python3 runSolver.py
 
 ## Acknowledgments
 
-We thank Prof. Jane Bae for her guidance and support during this project (Ae232a - Caltech, 2022).
+We thank Prof. Jane Bae for her guidance and support for this work (pre-AI).
